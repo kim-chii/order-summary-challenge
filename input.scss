@@ -5,12 +5,12 @@ $neutral-very-pale-blue: hsl(225, 100%, 98%);
 $neutral-desaturated-blue: hsl(224, 23%, 55%);
 $neutral-dark-blue: hsl(223, 47%, 23%);
 
-html,
 body {
   background: url(images/pattern-background-desktop.svg) no-repeat fixed;
   background-size: 100%;
   height: 100%;
   color: $neutral-desaturated-blue;
+  background-color: hsl(225, 100%, 94%);
 }
 
 html,
@@ -32,9 +32,13 @@ button {
   justify-content: center;
   align-items: center;
 }
+
 .container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -42,7 +46,7 @@ button {
   width: 450px;
   height: 700px;
   border-radius: 8px;
-  box-shadow: 5px 5px 15px 1px hsl(224, 23%, 95%);
+  box-shadow: 5px 5px 15px 1px hsla(224, 23%, 55%, 0.543);
 }
 
 .card-body {

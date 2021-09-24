@@ -1,9 +1,9 @@
-html,
 body {
   background: url(images/pattern-background-desktop.svg) no-repeat fixed;
   background-size: 100%;
   height: 100%;
   color: #7280a7;
+  background-color: #e0e8ff;
 }
 
 html,
@@ -28,7 +28,10 @@ button {
 
 .container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -36,7 +39,7 @@ button {
   width: 450px;
   height: 700px;
   border-radius: 8px;
-  box-shadow: 5px 5px 15px 1px #eff1f5;
+  box-shadow: 5px 5px 15px 1px rgba(114, 128, 167, 0.543);
 }
 
 .card-body {
