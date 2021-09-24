@@ -1,0 +1,135 @@
+html,
+body {
+  background: url(images/pattern-background-desktop.svg) no-repeat fixed;
+  background-size: 100%;
+  height: 100%;
+  color: #7280a7;
+}
+
+html,
+body,
+button {
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.flexed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexed-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  background: white;
+  width: 450px;
+  height: 700px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px 1px #eff1f5;
+}
+
+.card-body {
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-text h2 {
+  font-weight: 900;
+  margin: 0 0 15px 0;
+  color: #1f2f56;
+}
+.card-text p {
+  font-weight: 500;
+  text-align: center;
+  margin: auto;
+}
+
+.plans {
+  margin-top: 20px;
+  height: 95px;
+  border-radius: 10px;
+  background: #f5f7ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.plans-text {
+  margin: 0 0 0 20px;
+}
+.plans-text h4 {
+  margin: 0;
+  color: #1f2f56;
+  font-weight: 700;
+}
+.plans-text p {
+  margin: 5px 0 0 0;
+}
+
+#submit-button {
+  margin-top: 30px;
+  background: #3829e0;
+  color: white;
+  font-weight: 700;
+  box-shadow: none;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 10px 15px 1px #8b7cec69;
+}
+#submit-button:hover {
+  background-color: #6150ee;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+#cancel-button {
+  margin-top: 30px;
+  font-weight: 700;
+}
+#cancel-button:hover {
+  color: #1f2f56;
+}
+
+#change-button {
+  font-weight: 700;
+  color: #3829e0;
+}
+#change-button:hover {
+  text-decoration: none;
+  color: #8a7cec;
+}
+
+.img-header {
+  background: url(images/illustration-hero.svg) no-repeat top center;
+  background-size: 100%;
+  height: 220px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
